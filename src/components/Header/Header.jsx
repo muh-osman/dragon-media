@@ -18,7 +18,7 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 // Logo
-import logo from "../../assets/images/logo.webp";
+import logo from "../../assets/images/logo.png";
 
 
 
@@ -56,7 +56,7 @@ export default function Header() {
         >
           <div className="offcanvas-header margin-auto justify-content-center">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              <img className="reverse-logo logo p-3" src={logo} alt="logo" />
+              <img className="reverse-logo logo" src={logo} alt="logo" />
             </h5>
             <button
               ref={closeBtn}
@@ -82,13 +82,15 @@ export default function Header() {
               <li className="nav-item">
                 <NavLink
                   className="nav-link anchor"
-                  to="marketing"
+                  to="branding"
                   onClick={closeSideBar}
                 >
-                  <FaBullhorn className="uniform-icon" />
-                  التسويق
+                  <FaFontAwesome className="uniform-icon" />
+                  تصميم الجرافيك
                 </NavLink>
               </li>
+
+
 
               <li className="nav-item">
                 <NavLink
@@ -97,20 +99,22 @@ export default function Header() {
                   onClick={closeSideBar}
                 >
                   <FaCode className="uniform-icon" />
-                  برمجة المواقع
+                  تصميم المواقع الالكترونية
                 </NavLink>
               </li>
 
               <li className="nav-item">
                 <NavLink
                   className="nav-link anchor"
-                  to="branding"
+                  to="marketing"
                   onClick={closeSideBar}
                 >
-                  <FaFontAwesome className="uniform-icon" />
-                  الهويات البصرية
+                  <FaBullhorn className="uniform-icon" />
+                  الاعلانات الممولة
                 </NavLink>
               </li>
+
+
 
               <li className="nav-item">
                 <NavLink
@@ -119,7 +123,7 @@ export default function Header() {
                   onClick={closeSideBar}
                 >
                   <FaHashtag className="uniform-icon" />
-                  إدارة السوشيال ميديا
+                  تسويق المشاهير
                 </NavLink>
               </li>
 
@@ -149,7 +153,7 @@ export default function Header() {
                 <a href="https://twitter.com">
                   <FaInstagram />
                 </a>
-                <a href="https://www.facebook.com">
+                <a href="https://www.facebook.com/MaxMedia11">
                   <FaFacebook />
                 </a>
                 <a href="https://www.instagram.com">

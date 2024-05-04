@@ -114,6 +114,7 @@
         transform: scale(1.03);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         color: unset;
+        color: #007bff;
       }
 
       h5 {
@@ -184,7 +185,7 @@
       margin-top: 32px;
       font-size: 32px;
       color: #f1f1f1;
-      background-color: #b6ac9a;
+      background-color: #007bff;
       border-radius: 64px;
       padding: 10px 25px;
       transition: 0.3s;
@@ -276,7 +277,7 @@
     margin-bottom: 16px;
     font-size: 32px;
     color: #f1f1f1;
-    background-color: #b6ac9a;
+    background-color: #007bff;
     border-radius: 64px;
     padding: 10px 25px;
     transition: 0.3s;
@@ -394,7 +395,7 @@
     @include center();
     font-size: 32px;
     color: #f1f1f1;
-    background-color: #b6ac9a;
+    background-color: #007bff;
     border-radius: 64px;
     padding: 10px 25px;
     transition: 0.3s;
@@ -470,7 +471,7 @@
     @include center();
     font-size: 32px;
     color: #f1f1f1;
-    background-color: #b6ac9a;
+    background-color: #007bff;
     border-radius: 64px;
     padding: 10px 25px;
     transition: 0.3s;
@@ -545,7 +546,7 @@
     @include center();
     font-size: 32px;
     color: #f1f1f1;
-    background-color: #b6ac9a;
+    background-color: #007bff;
     border-radius: 64px;
     padding: 10px 25px;
     transition: 0.3s;
@@ -602,7 +603,7 @@
     @include center();
     font-size: 32px;
     color: #f1f1f1;
-    background-color: #b6ac9a;
+    background-color: #007bff;
     border-radius: 64px;
     padding: 10px 25px;
     transition: 0.3s;

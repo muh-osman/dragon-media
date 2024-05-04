@@ -22,7 +22,6 @@ import tiktok from "../../assets/images/social/tiktok.webp";
 // import man6 from "../../assets/images/social/man-6.jpg";
 
 export default function SocialMedia() {
-  
   // const settings = {
   //   dots: true,
   //   infinite: false,
@@ -236,7 +235,7 @@ export default function SocialMedia() {
             <div className="testtimonial-card comment">
               <img src={man1} alt="" />
               <p dir="rtl">
-                شركة محترمة ومحترفين في خدمات التسويق, نشهد لشركة H creation
+                شركة محترمة ومحترفين في خدمات التسويق, نشهد لشركة Dragon Media
                 بالاحترام والاحترافية العالية في تعاملهم معنا. فهم يتمتعون
                 بمستوى عالٍ من الشفافية والتفاهم
               </p>
@@ -247,7 +246,7 @@ export default function SocialMedia() {
             <div className="testtimonial-card">
               <img src={man2} alt="" />
               <p dir="rtl">
-                نوصي بشدة بالتعاون مع شركة H creation إذا كنتم تبحثون عن شريك
+                نوصي بشدة بالتعاون مع شركة Dragon Media إذا كنتم تبحثون عن شريك
                 موثوق ومؤهل في مجال التسويق الإلكتروني. فهم يضمنون لكم نتائج
                 ممتازة وتجربة محترفة تفوق توقعاتكم.
               </p>
@@ -269,7 +268,7 @@ export default function SocialMedia() {
             <div className="testtimonial-card">
               <img src={man4} alt="" />
               <p dir="rtl">
-                شركة H Creations تعتبر من الشركات الصادقة في التعامل معنا في
+                شركة Dragon Media تعتبر من الشركات الصادقة في التعامل معنا في
                 انشاء الموقع باحترافية نشكركم على انشاء الموقع لنا، وتفهم
                 متطلبات العميل بدقة واحترافية
               </p>
@@ -280,7 +279,7 @@ export default function SocialMedia() {
             <div className="testtimonial-card">
               <img src={man5} alt="" />
               <p dir="rtl">
-                شركة H creation للتسويق الالكترونية ساعدونا في انشاء الهوية
+                شركة Dragon Media للتسويق الالكترونية ساعدونا في انشاء الهوية
                 والبيزنس من البداية شركتنا مع ادارة الموقع والسوشيل ميديا
                 والاعلانات المدفوعة نشهد لهم بالاحترام والشفافية
               </p>
@@ -291,7 +290,7 @@ export default function SocialMedia() {
             <div className="testtimonial-card">
               <img src={man6} alt="" />
               <p dir="rtl">
-                شركة H creation للتسويق الالكترونية هي الشريك الأمثل لنا في بناء
+                شركة Dragon Media للتسويق الالكترونية هي الشريك الأمثل لنا في بناء
                 هويتنا وتطوير أعمالنا من البداية. فقد قدموا لنا دعمًا قويًا في
                 إدارة موقعنا والتواجد على وسائل التواصل الاجتماعي
               </p>
@@ -302,8 +301,6 @@ export default function SocialMedia() {
           </Slider>
         </div>
       </section> */}
-
-
     </article>
   );
 }

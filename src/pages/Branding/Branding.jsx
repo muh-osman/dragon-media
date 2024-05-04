@@ -5,14 +5,14 @@ import style from "./Brandin.module.scss";
 // Icon
 import CloseIcon from "@mui/icons-material/Close";
 // images
-import logoA from "../../assets/images/branding/logo-1.png";
-import logoB from "../../assets/images/branding/logo-2.png";
-import logoC from "../../assets/images/branding/logo-3.png";
-import logoD from "../../assets/images/branding/logo-4.png";
-import logoE from "../../assets/images/branding/logo-5.png";
-import logoF from "../../assets/images/branding/logo-6.png";
-import logoG from "../../assets/images/branding/logo-7.png";
-import logoH from "../../assets/images/branding/logo-8.png";
+import logoA from "../../assets/images/branding/logo-1.jpg";
+import logoB from "../../assets/images/branding/logo-2.jpg";
+import logoC from "../../assets/images/branding/logo-3.jpg";
+import logoD from "../../assets/images/branding/logo-4.jpg";
+import logoE from "../../assets/images/branding/logo-5.jpg";
+import logoF from "../../assets/images/branding/logo-6.jpg";
+import logoG from "../../assets/images/branding/logo-7.jpg";
+import logoH from "../../assets/images/branding/logo-8.jpg";
 
 import brandA from "../../assets/images/branding/brand-1.jpg";
 import brandB from "../../assets/images/branding/brand-2.jpg";
@@ -21,30 +21,30 @@ import brandD from "../../assets/images/branding/brand-4.jpg";
 import brandE from "../../assets/images/branding/brand-5.jpg";
 import brandF from "../../assets/images/branding/brand-6.jpg";
 
-import rowA from "../../assets/images/branding/row-1.avif";
-import rowB from "../../assets/images/branding/row-2.avif";
-import rowC from "../../assets/images/branding/row-3.avif";
-import rowD from "../../assets/images/branding/row-4.avif";
-import rowE from "../../assets/images/branding/row-5.avif";
-import rowF from "../../assets/images/branding/row-6.avif";
-import rowG from "../../assets/images/branding/row-7.avif";
-import rowH from "../../assets/images/branding/row-8.avif";
-import rowI from "../../assets/images/branding/row-9.avif";
-import rowJ from "../../assets/images/branding/row-10.avif";
-import rowK from "../../assets/images/branding/row-11.avif";
-import rowL from "../../assets/images/branding/row-12.avif";
-import rowM from "../../assets/images/branding/row-13.avif";
-import rowN from "../../assets/images/branding/row-14.avif";
-import rowO from "../../assets/images/branding/row-15.avif";
-import rowP from "../../assets/images/branding/row-16.avif";
-import rowQ from "../../assets/images/branding/row-17.avif";
-import rowR from "../../assets/images/branding/row-18.avif";
-import rowS from "../../assets/images/branding/row-19.avif";
-import rowT from "../../assets/images/branding/row-20.avif";
-import rowU from "../../assets/images/branding/row-21.avif";
-import rowV from "../../assets/images/branding/row-22.avif";
-import rowW from "../../assets/images/branding/row-23.avif";
-import rowX from "../../assets/images/branding/row-24.avif";
+import rowA from "../../assets/images/branding/row-1.jpg";
+import rowB from "../../assets/images/branding/row-2.jpg";
+import rowC from "../../assets/images/branding/row-3.jpg";
+import rowD from "../../assets/images/branding/row-4.jpg";
+import rowE from "../../assets/images/branding/row-5.jpg";
+import rowF from "../../assets/images/branding/row-6.jpg";
+import rowG from "../../assets/images/branding/row-7.jpg";
+import rowH from "../../assets/images/branding/row-8.jpg";
+import rowI from "../../assets/images/branding/row-9.jpg";
+import rowJ from "../../assets/images/branding/row-10.jpg";
+// import rowK from "../../assets/images/branding/row-11.avif";
+// import rowL from "../../assets/images/branding/row-12.avif";
+// import rowM from "../../assets/images/branding/row-13.avif";
+// import rowN from "../../assets/images/branding/row-14.avif";
+// import rowO from "../../assets/images/branding/row-15.avif";
+// import rowP from "../../assets/images/branding/row-16.avif";
+// import rowQ from "../../assets/images/branding/row-17.avif";
+// import rowR from "../../assets/images/branding/row-18.avif";
+// import rowS from "../../assets/images/branding/row-19.avif";
+// import rowT from "../../assets/images/branding/row-20.avif";
+// import rowU from "../../assets/images/branding/row-21.avif";
+// import rowV from "../../assets/images/branding/row-22.avif";
+// import rowW from "../../assets/images/branding/row-23.avif";
+// import rowX from "../../assets/images/branding/row-24.avif";
 
 export default function Branding() {
   useEffect(() => {
@@ -88,7 +88,7 @@ export default function Branding() {
     <div className={style.container}>
       <section className={style.A} dir="ltr">
         <h1>
-          BRAND
+          GRAPHIC
           <br />
           DESIGN
         </h1>
@@ -133,22 +133,34 @@ export default function Branding() {
         >
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="2500">
-              <img src={brandA} className="d-block w-100" alt="branding" />
+              <img src={rowA} className="d-block w-100" alt="branding" />
             </div>
             <div className="carousel-item" data-bs-interval="2500">
-              <img src={brandB} className="d-block w-100" alt="branding" />
+              <img src={rowB} className="d-block w-100" alt="branding" />
             </div>
             <div className="carousel-item" data-bs-interval="2500">
-              <img src={brandC} className="d-block w-100" alt="branding" />
+              <img src={rowC} className="d-block w-100" alt="branding" />
             </div>
             <div className="carousel-item" data-bs-interval="2500">
-              <img src={brandD} className="d-block w-100" alt="branding" />
+              <img src={rowD} className="d-block w-100" alt="branding" />
             </div>
             <div className="carousel-item" data-bs-interval="2500">
-              <img src={brandE} className="d-block w-100" alt="branding" />
+              <img src={rowE} className="d-block w-100" alt="branding" />
             </div>
             <div className="carousel-item" data-bs-interval="2500">
-              <img src={brandF} className="d-block w-100" alt="branding" />
+              <img src={rowF} className="d-block w-100" alt="branding" />
+            </div>
+            <div className="carousel-item" data-bs-interval="2500">
+              <img src={rowG} className="d-block w-100" alt="branding" />
+            </div>
+            <div className="carousel-item" data-bs-interval="2500">
+              <img src={rowH} className="d-block w-100" alt="branding" />
+            </div>
+            <div className="carousel-item" data-bs-interval="2500">
+              <img src={rowI} className="d-block w-100" alt="branding" />
+            </div>
+            <div className="carousel-item" data-bs-interval="2500">
+              <img src={rowJ} className="d-block w-100" alt="branding" />
             </div>
           </div>
           <button
@@ -179,20 +191,7 @@ export default function Branding() {
       </section>
 
       <section className={style.rows}>
-        <div>
-          <div onClick={() => handleImageClick(rowI)}>
-            <img src={rowI} alt="branding" />
-          </div>
-          <div onClick={() => handleImageClick(rowJ)}>
-            <img src={rowJ} alt="branding" />
-          </div>
-          <div onClick={() => handleImageClick(rowK)}>
-            <img src={rowK} alt="branding" />
-          </div>
-          <div onClick={() => handleImageClick(rowL)}>
-            <img src={rowL} alt="branding" />
-          </div>
-        </div>
+
 
         <div>
           <div onClick={() => handleImageClick(rowA)}>
@@ -209,7 +208,7 @@ export default function Branding() {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div onClick={() => handleImageClick(rowM)}>
             <img src={rowM} alt="branding" />
           </div>
@@ -222,7 +221,7 @@ export default function Branding() {
           <div onClick={() => handleImageClick(rowP)}>
             <img src={rowP} alt="branding" />
           </div>
-        </div>
+        </div> */}
 
         <div>
           <div onClick={() => handleImageClick(rowE)}>
@@ -240,6 +239,21 @@ export default function Branding() {
         </div>
 
         <div>
+          <div onClick={() => handleImageClick(rowI)}>
+            <img src={rowI} alt="branding" />
+          </div>
+          <div onClick={() => handleImageClick(rowJ)}>
+            <img src={rowJ} alt="branding" />
+          </div>
+          {/* <div onClick={() => handleImageClick(rowK)}>
+            <img src={rowK} alt="branding" />
+          </div>
+          <div onClick={() => handleImageClick(rowL)}>
+            <img src={rowL} alt="branding" />
+          </div> */}
+        </div>
+
+        {/* <div>
           <div onClick={() => handleImageClick(rowQ)}>
             <img src={rowQ} alt="branding" />
           </div>
@@ -252,9 +266,9 @@ export default function Branding() {
           <div onClick={() => handleImageClick(rowT)}>
             <img src={rowT} alt="branding" />
           </div>
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <div onClick={() => handleImageClick(rowU)}>
             <img src={rowU} alt="branding" />
           </div>
@@ -267,7 +281,7 @@ export default function Branding() {
           <div onClick={() => handleImageClick(rowX)}>
             <img src={rowX} alt="branding" />
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Lighthouse overlay */}

@@ -28,7 +28,7 @@ export default function Contact() {
   const { width } = useWindowDimensions();
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbz1DQpJKDJQCzcFCidNIT1G4f7YeXblkhSMFNyud05DdPkb_tX7Tb2JMIMDLCgmeseGEA/exec";
+    "https://script.google.com";
 
   const form = document.forms["submit-to-google-sheet"];
 

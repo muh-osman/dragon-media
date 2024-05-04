@@ -15,6 +15,8 @@ import nada from "../../assets/images/nada.jpg";
 // Icon
 import CloseIcon from "@mui/icons-material/Close";
 // import { Troubleshoot } from "@mui/icons-material";
+import logo from "../../assets/images/logo.png";
+
 
 export default function Footer() {
   const whatsappBtnClick = () => {
@@ -23,25 +25,25 @@ export default function Footer() {
       .classList.toggle(`${style.hideShowWinow}`);
   };
 
-  useEffect(() => {
-    let showWhatsappWindowTimeOut = setTimeout(() => {
-      document.getElementById("Window").classList.add(`${style.hideShowWinow}`);
-    }, 10000);
+  // useEffect(() => {
+  //   let showWhatsappWindowTimeOut = setTimeout(() => {
+  //     document.getElementById("Window").classList.add(`${style.hideShowWinow}`);
+  //   }, 10000);
 
-    return () => {
-      clearTimeout(showWhatsappWindowTimeOut);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(showWhatsappWindowTimeOut);
+  //   };
+  // }, []);
 
   return (
     <footer>
       <div className={style.footer_box}>
         <div className={style.email} dir="ltr">
-          <a href="mailto:info@h-creations.net">
-            <FaEnvelope /> info@h-creations.net
+          <a href="mailto:info@dragonweb.online">
+            <FaEnvelope /> info@dragonweb.online
           </a>
-          <a href="https://wa.me/00966508175802">
-            <FaWhatsapp /> +966-508175802
+          <a href="https://wa.me/972512762093">
+            <FaWhatsapp /> +972-512762093
           </a>
         </div>
 
@@ -50,7 +52,7 @@ export default function Footer() {
             <a href="https://twitter.com">
               <FaInstagram />
             </a>
-            <a href="https://www.facebook.com">
+            <a href="https://www.facebook.com/MaxMedia11">
               <FaFacebook />
             </a>
             <a href="https://www.instagram.com">
@@ -60,15 +62,12 @@ export default function Footer() {
         </div>
 
         <div dir="ltr" className={style.title}>
-          <h1>
-            H<br />
-            Creation
-          </h1>
+        <img className="logo" src={logo} style={{height: "100px"}} alt="logo" />
         </div>
       </div>
 
       <div dir="ltr">
-        <p>Copyright © 2024 H Creation Inc. All rights reserved.</p>
+        <p>Copyright © 2024 Dragon Media Inc. All rights reserved.</p>
       </div>
 
       {/* Whatsapp icon */}
@@ -128,7 +127,7 @@ export default function Footer() {
         <a
           title="WhatsApp"
           role="button"
-          href="https://wa.me/966508175802"
+          href="https://wa.me/972512762093"
           className={style.ButtonBase_ButtonContainer}
           type="button"
           tabIndex={0}

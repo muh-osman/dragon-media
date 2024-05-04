@@ -149,7 +149,7 @@ function ResponsiveDrawer(props) {
               />
             </Avatar>
           </a>
-          <a href="https://www.facebook.com/" style={{ margin: 0 }}>
+          <a href="https://www.facebook.com/MaxMedia11" style={{ margin: 0 }}>
             <Avatar
               alt="YouTube"
               sx={{ width: 24, height: 24, backgroundColor: "transparent" }}
@@ -183,7 +183,7 @@ function ResponsiveDrawer(props) {
           noWrap
           component="h1"
         >
-          © 2024 H Creations
+          © 2024 Dragon Media
         </Typography>
       </List>
     </div>

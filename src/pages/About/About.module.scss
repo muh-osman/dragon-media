@@ -53,6 +53,10 @@
       margin-bottom: 16px;
       font-size: 22px;
       color: #707171;
+
+      &::marker {
+        color: #007bff;
+      }
     }
   }
 }
@@ -81,10 +85,14 @@
         margin-bottom: 16px;
         font-size: 16px;
         color: #707171;
+
+
       }
     }
   }
 }
+
+
 
 // long_text
 .long_text {
@@ -110,6 +118,7 @@
 .hero_text_box {
   @include center();
   flex-direction: column;
+  margin-bottom: 32px;
 
   span {
     padding-left: 70px;
@@ -125,6 +134,20 @@
     line-height: 125px;
     margin-bottom: 16px;
   }
+
+  h6 {
+    color: #007bff;
+    font-stretch: 550%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero_text_box {
+
+    h1 {
+      font-size: 100px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -135,8 +158,8 @@
     }
 
     h1 {
-      font-size: 70px;
       line-height: 60px;
+      font-size: 50px;
     }
   }
 }
