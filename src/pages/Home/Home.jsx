@@ -40,11 +40,11 @@ export default function Home() {
     <div className={style.container}>
       {/* Text hero */}
       <div className={style.hero_text_box} dir="ltr">
-        <h1>
+        {/* <h1>
           <span>H</span>
           <br />
           CREATIONS
-        </h1>
+        </h1> */}
         <h6>Solutions to grow elegantly</h6>
       </div>
 
