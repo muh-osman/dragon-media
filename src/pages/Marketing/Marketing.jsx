@@ -94,6 +94,7 @@ export default function Marketing() {
               <img src={servE} alt="marketing" />
             </div>
           </div>
+          
         </div>
       </section>
 

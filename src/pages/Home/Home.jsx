@@ -3,7 +3,7 @@ import style from "./Home.module.scss";
 // Reacr router
 import { Link } from "react-router-dom";
 // Images
-import hero from "../../assets/images/home/hero.avif";
+import hero from "../../assets/images/home/hero.webp";
 
 import iconOne from "../../assets/images/home/coding.svg";
 import iconTwo from "../../assets/images/home/mangment.svg";
@@ -12,9 +12,11 @@ import iconFour from "../../assets/images/home/graphic.svg";
 
 import branding from "../../assets/images/home/branding.png";
 import social from "../../assets/images/home/social.png";
-import designOne from "../../assets/images/home/design-1.png";
-import designTwo from "../../assets/images/home/design-2.png";
-import designThree from "../../assets/images/home/design-3.png";
+
+import designOne from "../../assets/images/home/design-3.jpg";
+import designTwo from "../../assets/images/home/design-2.jpg";
+import designThree from "../../assets/images/home/design-1.jpg";
+
 import adsOne from "../../assets/images/home/ads-1.avif";
 import adsTwo from "../../assets/images/home/ads-2.jpeg";
 import programing from "../../assets/images/home/programing.avif";
@@ -26,8 +28,6 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 import { useEffect } from "react";
 
 export default function Home() {
-
-
   useEffect(() => {
     window.scroll({
       top: 0,
@@ -40,12 +40,8 @@ export default function Home() {
     <div className={style.container}>
       {/* Text hero */}
       <div className={style.hero_text_box} dir="ltr">
-        {/* <h1>
-          <span>H</span>
-          <br />
-          CREATIONS
-        </h1> */}
-        <h6>Solutions to grow elegantly</h6>
+        <h1>Dragon Media</h1>
+        <h6>للدعاية والإعلان وخدمات التسويق</h6>
       </div>
 
       {/* Image hero */}
@@ -62,7 +58,7 @@ export default function Home() {
               <img src={iconFour} alt="soulution" />
             </div>
             <div>
-              <h5>تصميم جرافيك</h5>
+              <h5>تصميم الجرافيك</h5>
             </div>
           </Link>
 
@@ -71,7 +67,7 @@ export default function Home() {
               <img src={iconThree} alt="soulution" />
             </div>
             <div>
-              <h5>تسويق</h5>
+              <h5>الاعلانات الممولة</h5>
             </div>
           </Link>
 
@@ -80,7 +76,7 @@ export default function Home() {
               <img src={iconTwo} alt="soulution" />
             </div>
             <div>
-              <h5>إدارة سوشيال ميديا</h5>
+              <h5>تسويق المشاهير</h5>
             </div>
           </Link>
 
@@ -91,24 +87,6 @@ export default function Home() {
             <div>
               <h5>برمجة المواقع</h5>
             </div>
-          </Link>
-        </div>
-      </div>
-
-      {/* Branding */}
-      <div className={style.branding_box}>
-        <div>
-          <img src={branding} alt="branding" />
-          <h3 className="text-center m-0" style={{ color: "#707171" }}>
-            انفرد بهوية بصرية مميزة تجعلك علامة تجارية لاتنسى
-          </h3>
-        </div>
-
-        <div>
-          <h1>Branding</h1>
-          <h2>الهويات البصرية</h2>
-          <Link to="branding">
-            <FaChevronRight /> نماذج أعمال
           </Link>
         </div>
       </div>
@@ -131,6 +109,24 @@ export default function Home() {
             نماذج أعمال <FaChevronLeft />
           </Link>
           <h3>السوشيال ميديا بوابتك للوصول لعملائك</h3>
+        </div>
+      </div>
+
+      {/* Branding */}
+      <div className={style.branding_box}>
+        <div>
+          <img src={branding} alt="branding" />
+          <h3 className="text-center m-0" style={{ color: "#707171" }}>
+            انفرد بهوية بصرية مميزة تجعلك علامة تجارية لاتنسى
+          </h3>
+        </div>
+
+        <div>
+          <h1>Branding</h1>
+          <h2>الهويات البصرية</h2>
+          <Link to="branding">
+            <FaChevronRight /> نماذج أعمال
+          </Link>
         </div>
       </div>
 
