@@ -10,12 +10,24 @@ import iconTwo from "../../assets/images/home/mangment.svg";
 import iconThree from "../../assets/images/home/marketing.svg";
 import iconFour from "../../assets/images/home/graphic.svg";
 
-import branding from "../../assets/images/home/branding.png";
+import B from "../../assets/images/home/branding.jpg";
+import A from "../../assets/images/home/a.jpg";
+import branding from "../../assets/images/home/f.jpg";
+import C from "../../assets/images/home/c.jpg";
+import D from "../../assets/images/home/d.jpg";
+import E from "../../assets/images/home/e.jpg";
+import F from "../../assets/images/home/b.jpg";
+
 import social from "../../assets/images/home/social.png";
 
-import designOne from "../../assets/images/home/design-3.jpg";
-import designTwo from "../../assets/images/home/design-2.jpg";
-import designThree from "../../assets/images/home/design-1.jpg";
+import designOne from "../../assets/images/branding/logo-1.jpg";
+import designTwo from "../../assets/images/branding/logo-2.jpg";
+import designThree from "../../assets/images/branding/logo-3.jpg";
+
+import AA from "../../assets/images/branding/logo-4.jpg";
+import BB from "../../assets/images/branding/logo-6.jpg";
+import CC from "../../assets/images/branding/logo-7.jpg";
+import DD from "../../assets/images/branding/logo-8.jpg";
 
 import adsOne from "../../assets/images/home/ads-1.avif";
 import adsTwo from "../../assets/images/home/ads-2.jpeg";
@@ -105,10 +117,40 @@ export default function Home() {
         </div>
 
         <div>
-          <Link to="socialmedia">
+          <Link to="branding">
             نماذج أعمال <FaChevronLeft />
           </Link>
           <h3>السوشيال ميديا بوابتك للوصول لعملائك</h3>
+        </div>
+      </div>
+
+      {/* 1 */}
+      <div className={style.design_row_one_box}>
+        <div>
+          <img src={A} alt="Designs" />
+        </div>
+        <div>
+          <img src={B} alt="Designs" />
+        </div>
+      </div>
+
+      {/* 2 */}
+      <div className={style.design_row_one_box}>
+        <div>
+          <img src={C} alt="Designs" />
+        </div>
+        <div>
+          <img src={D} alt="Designs" />
+        </div>
+      </div>
+
+      {/* 3 */}
+      <div className={style.design_row_one_box}>
+        <div>
+          <img src={E} alt="Designs" />
+        </div>
+        <div>
+          <img src={F} alt="Designs" />
         </div>
       </div>
 
@@ -123,10 +165,35 @@ export default function Home() {
 
         <div>
           <h1>Branding</h1>
-          <h2>الهويات البصرية</h2>
+          <h2>الهوية البصرية</h2>
           <Link to="branding">
             <FaChevronRight /> نماذج أعمال
           </Link>
+        </div>
+      </div>
+
+
+
+
+
+
+      {/* 44 */}
+      <div className={style.design_row_one_box}>
+        <div>
+          <img src={AA} alt="Designs" />
+        </div>
+        <div>
+          <img src={BB} alt="Designs" />
+        </div>
+      </div>
+
+      {/* 55 */}
+      <div className={style.design_row_one_box}>
+        <div>
+          <img src={CC} alt="Designs" />
+        </div>
+        <div>
+          <img src={DD} alt="Designs" />
         </div>
       </div>
 

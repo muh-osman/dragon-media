@@ -125,7 +125,7 @@ export default function Branding() {
       </section>
 
       <section className={style.carousel}>
-        <h1>الهويات البصرية</h1>
+        <h1>الهوية البصرية</h1>
         <div
           id="carouselExampleAutoplaying"
           className="carousel slide carousel-fade"

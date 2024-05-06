@@ -15,13 +15,13 @@ import Programing from "./pages/Programing/Programing";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 
-import SignIn from "./dashboard/SignIn/SignIn";
-import Auth from "./utiles/Auth";
-import ResponsiveDrawer from "./dashboard/Drawer/ResponsiveDrawer";
-import Sale from "./dashboard/Sale/Sale";
-import Video from "./dashboard/Video/Video";
-import Images from "./dashboard/Images/Images";
-import Services from "./dashboard/Services/Services";
+// import SignIn from "./dashboard/SignIn/SignIn";
+// import Auth from "./utiles/Auth";
+// import ResponsiveDrawer from "./dashboard/Drawer/ResponsiveDrawer";
+// import Sale from "./dashboard/Sale/Sale";
+// import Video from "./dashboard/Video/Video";
+// import Images from "./dashboard/Images/Images";
+// import Services from "./dashboard/Services/Services";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -37,18 +37,19 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
         </Route>
 
-        <Route path="admin" element={<SignIn />} />
+        {/* <Route path="admin" element={<SignIn />} /> */}
 
-        <Route element={<Auth />}>
+        {/* <Route element={<Auth />}> */}
           {/* Start Protected route */}
-          <Route path="dashboard" element={<ResponsiveDrawer />}>
-            <Route path="sale" element={<Sale />} />
-            <Route path="images" element={<Images />} />
-            <Route path="video" element={<Video />} />
-            <Route path="services" element={<Services />} />
-          </Route>
+          {/* <Route path="dashboard" element={<ResponsiveDrawer />}> */}
+            {/* <Route path="sale" element={<Sale />} /> */}
+            {/* <Route path="images" element={<Images />} /> */}
+            {/* <Route path="video" element={<Video />} /> */}
+            {/* <Route path="services" element={<Services />} /> */}
+          {/* </Route> */}
           {/* End Protected route */}
-        </Route>
+        {/* </Route> */}
+
       </Route>
     )
   );
