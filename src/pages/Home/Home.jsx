@@ -20,12 +20,12 @@ import F from "../../assets/images/home/b.jpg";
 
 import social from "../../assets/images/home/social.png";
 
-import designOne from "../../assets/images/branding/logo-1.jpg";
+import designOne from "../../assets/images/branding/logo-6.jpg";
 import designTwo from "../../assets/images/branding/logo-2.jpg";
 import designThree from "../../assets/images/branding/logo-3.jpg";
 
 import AA from "../../assets/images/branding/logo-4.jpg";
-import BB from "../../assets/images/branding/logo-6.jpg";
+import BB from "../../assets/images/branding/logo-1.jpg";
 import CC from "../../assets/images/branding/logo-7.jpg";
 import DD from "../../assets/images/branding/logo-8.jpg";
 
@@ -172,35 +172,30 @@ export default function Home() {
         </div>
       </div>
 
-
-
-
-
-
       {/* 44 */}
       <div className={style.design_row_one_box}>
         <div>
-          <img src={AA} alt="Designs" />
+          <img className={style.custom} src={AA} alt="Designs" />
         </div>
         <div>
-          <img src={BB} alt="Designs" />
+          <img className={style.custom} src={BB} alt="Designs" />
         </div>
       </div>
 
       {/* 55 */}
       <div className={style.design_row_one_box}>
         <div>
-          <img src={CC} alt="Designs" />
+          <img className={style.custom} src={CC} alt="Designs" />
         </div>
         <div>
-          <img src={DD} alt="Designs" />
+          <img className={style.custom} src={DD} alt="Designs" />
         </div>
       </div>
 
       {/* Designs */}
       <div className={style.design_row_one_box}>
         <div>
-          <img src={designOne} alt="Designs" />
+          <img src={designThree} alt="Designs" />
         </div>
         <div>
           <img src={designTwo} alt="Designs" />
@@ -209,7 +204,7 @@ export default function Home() {
 
       <div className={style.design_row_two_box}>
         <div>
-          <img src={designThree} alt="Designs" />
+          <img src={designOne} alt="Designs" />
         </div>
         <div>
           <h1>Designs</h1>
