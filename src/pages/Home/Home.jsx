@@ -10,13 +10,13 @@ import iconTwo from "../../assets/images/home/mangment.svg";
 import iconThree from "../../assets/images/home/marketing.svg";
 import iconFour from "../../assets/images/home/graphic.svg";
 
-import B from "../../assets/images/home/branding.jpg";
-import A from "../../assets/images/home/a.jpg";
-import branding from "../../assets/images/home/f.jpg";
-import C from "../../assets/images/home/c.jpg";
-import D from "../../assets/images/home/d.jpg";
-import E from "../../assets/images/home/e.jpg";
-import F from "../../assets/images/home/b.jpg";
+import B from "../../assets/images/branding/row-3.jpg";
+import A from "../../assets/images/branding/row-5.jpg";
+import branding from "../../assets/images/branding/row-1.jpg";
+import C from "../../assets/images/branding/row-8.jpg";
+import D from "../../assets/images/branding/row-2.jpg";
+import E from "../../assets/images/branding/row-7.jpg";
+import F from "../../assets/images/branding/row-6.jpg";
 
 import social from "../../assets/images/home/social.png";
 

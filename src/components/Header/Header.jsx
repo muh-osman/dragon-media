@@ -20,9 +20,6 @@ import {
 // Logo
 import logo from "../../assets/images/logo.png";
 
-
-
-
 export default function Header() {
   const closeBtn = useRef();
 
@@ -90,8 +87,6 @@ export default function Header() {
                 </NavLink>
               </li>
 
-
-
               <li className="nav-item">
                 <NavLink
                   className="nav-link anchor"
@@ -113,8 +108,6 @@ export default function Header() {
                   الاعلانات الممولة
                 </NavLink>
               </li>
-
-
 
               <li className="nav-item">
                 <NavLink
@@ -160,8 +153,7 @@ export default function Header() {
                   <FaXTwitter />
                 </a>
               </div>
-        </div>
-
+            </div>
           </div>
         </div>
       </div>
